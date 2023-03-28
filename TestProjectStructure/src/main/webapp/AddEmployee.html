@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<table border="2">
+<thead>
+<tr><th>Add Employee</th> <th>Delete Employee</th>
+<th>Update Employee </th>
+<th>Display Employee </th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<form action="AddEmployee" method="post">
+Name <input type="text" name="name"><br>
+Salary <input type="text" name="salary"><br>
+<input type="submit">
+</form>
+</td>
+<td>
+<form action="DeleteEmployee" method="post">
+id <input type="text" name="id"><br>
+<input type="submit">
+</form>
+</td>
+<td>
+// Break
+<form action="upEmp" method="post">
+Id <input type="text" name="idd"><br>
+Salary <input type="text" name="salary"><br>
+<input type="submit">
+</form>
+</td>
+<td>
+<form action="display.jsp" method="post">
+<input type="submit" Value="Display">
+</form>
+
+</td>
+</tr>
+
+</tbody>
+</table>
+</body>
+</html>
